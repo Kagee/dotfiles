@@ -1,4 +1,4 @@
-# Place this in .vim/plugin/local.vim so we don't overwrite system settings
+" Place this in .vim/plugin/local.vim so we don't overwrite system settings
 
 filetype plugin indent on
 set clipboard=unnamedplus
@@ -7,16 +7,16 @@ autocmd Filetype sh setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd Filetype php setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd Filetype html setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
-# Make whitespace visible
+" Make whitespace visible
 set listchars=nbsp:ʭ,tab:>-,extends:»,precedes:«,trail:• list
 
-# Highlight search matches
+" Highlight search matches
 set hlsearch
 
-# I use a dark terminal
+" I use a dark terminal
 set bg=dark
 
-# Some config for https://github.com/dense-analysis/ale
+" Some config for https://github.com/dense-analysis/ale
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'yaml': ['yamlfix'],
