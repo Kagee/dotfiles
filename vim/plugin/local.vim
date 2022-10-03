@@ -8,6 +8,7 @@ autocmd Filetype php setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd Filetype html setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
 " Make whitespace visible
+" nbsp is AltGr+Space, creates hard to see space/nbsp-bugs
 set listchars=nbsp:ʭ,tab:>-,extends:»,precedes:«,trail:• list
 
 " Highlight search matches
